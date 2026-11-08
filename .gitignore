@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Export data may include project source and configuration
+*_EXPORT/
+*_EXPORT.zip
+*.zip.tmp
+GASP_export_*.log
+blueprint_failures*.csv
+
+# Local editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
